@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body { /* BODY sand background with brown font */
+    background-color: #cbbea5;
+    color: #6b4a3a;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+}
+
+header { /* HEADER dark green background with light green font */
+    background-color: #22372b;
+    color: #96a280;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 4px solid #4b3d2a;
+}
+
+h2, h3 { /* HEADINGS top margin for section spacing */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p { /* PARAGRAPHS bottom margin for readability */
+    margin-bottom: 15px;
+}
+
+nav { /* NAV BAR brown background */
+    background-color: #4b3d2a;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul { /* NAV UL flexbox style */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+a { /* Anchor green font with underline */
+    color: #22372b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover { /* A HOVER dark brown background with sand font */
+    background-color: #4b3d2a;
+    color: #cbbea5;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+nav a { /* NAV A sand font with no underline */
+    color: #cbbea5;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+nav a:hover, nav a:focus { /* NAV A HOVER brown (slightly lighter than background) */
+    background-color: #5c4c34;
+    border-radius: 4px;
+    color: #f5f2ed;
+}
+
+.container { /* CONTAINER cream with shadow */
+    max-width: 900px;
+    margin: 40px auto;
+    background: #dcd2bf;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+table { /* TABLE standard layout with light sand background */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #f5f2ed;
+}
+
+th, td { /* TABLE CELLS brown border */
+    border: 1px solid #4b3d2a;
+    padding: 12px;
+    text-align: left;
+}
+
+th { /* TABLE HEADER dark green background with light green font */
+    background-color: #22372b;
+    color: #96a280;
+}
+
+img { /* IMG responsive centered with margin */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+footer { /* FOOTER thin brown top border */
+    text-align: center;
+    padding: 40px;
+    font-size: 0.9rem;
+    border-top: 1px solid #4b3d2a;
+    opacity: 0.8;
+}
+
+header img, footer img {
+    display: block;
+    margin: 10px auto;
+}
