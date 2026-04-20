@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | The Carbon Cloud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eco-Knowledge Quiz</h1>
+        <p>Assess your understanding of digital ecology.</p>
+    </header>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="data-centers.html">Data Centers</a></li>
+            <li><a href="networks.html">Networks</a></li>
+            <li><a href="concepts.html">Key Concepts</a></li>
+            <li><a href="quiz.html" class="active">Quiz</a></li>
+            <li><a href="references.html">References</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <form id="ecoQuiz">
+            <section>
+                <h3>1. The "Hidden Root System" refers to physical _______ centers.</h3>
+                <input type="text" id="q1" placeholder="Type answer here...">
+            </section>
+
+            <section>
+                <h3>2. Which connection type is generally the most energy-efficient?</h3>
+                <label><input type="radio" name="q2" value="Fiber"> Fiber Optic</label><br>
+                <label><input type="radio" name="q2" value="Wifi"> Wi-Fi</label><br>
+                <label><input type="radio" name="q2" value="Cellular"> 4G/5G Cellular</label>
+            </section>
+
+            <section>
+                <h3>3. What percentage of global electricity do data centers use?</h3>
+                <label><input type="radio" name="q3" value="1"> 1-1.5%</label><br>
+                <label><input type="radio" name="q3" value="10"> 10-15%</label><br>
+                <label><input type="radio" name="q3" value="50"> 50%</label>
+            </section>
+
+            <section>
+                <h3>4. Which term describes designing tech to break quickly?</h3>
+                <label><input type="radio" name="q4" value="Mindfulness"> Digital Mindfulness</label><br>
+                <label><input type="radio" name="q4" value="Obsolescence"> Planned Obsolescence</label><br>
+                <label><input type="radio" name="q4" value="Composting"> Data Composting</label>
+            </section>
+
+            <section>
+                <h3>5. Which are "Low-Bloom" design choices? (Select all that apply)</h3>
+                <label><input type="checkbox" name="q5" value="Fonts"> Using System Fonts</label><br>
+                <label><input type="checkbox" name="q5" value="Video"> Autoplay HD Videos</label><br>
+                <label><input type="checkbox" name="q5" value="Minimal"> Lightweight Code</label>
+            </section>
+
+            <button type="button" onclick="checkQuiz()">Submit Quiz</button>
+            <button type="reset" onclick="resetQuiz()">Reset Quiz</button>
+        </form>
+
+        <div id="results" style="margin-top: 30px; display: none;"></div>
+    </main>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
