@@ -69,6 +69,12 @@ nav a:hover, nav a:focus { /* NAV A HOVER brown (slightly lighter than backgroun
     color: #f5f2ed;
 }
 
+nav a.active { /* ACTIVE PAGE sand background with deep brown text */
+    background-color: #cbbea5;
+    color: #4b3d2a;
+    border-radius: 4px;
+}
+
 .container { /* CONTAINER cream with shadow */
     max-width: 900px;
     margin: 40px auto;
@@ -114,4 +120,35 @@ footer { /* FOOTER thin brown top border */
 header img, footer img {
     display: block;
     margin: 10px auto;
+}
+
+form section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cbbea5;
+}
+
+input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #4b3d2a;
+    background-color: #f5f2ed;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #22372b;
+    color: #96a280;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #4b3d2a;
+    color: #cbbea5;
 }
