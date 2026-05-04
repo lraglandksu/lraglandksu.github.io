@@ -28,11 +28,11 @@ function checkQuiz() {
     }
 
     const q4 = document.querySelector('input[name="q4"]:checked');
-    if (q4 && q4.value === "Obsolescence") {
+    if (q4 && q4.value === "Gallons") {
         score++;
-        resultsHTML += "<p style='color: #22372b;'>Q4: Correct! (Answer: Planned Obsolescence)</p>";
+        resultsHTML += "<p style='color: #22372b;'>Q4: Correct! (Answer: 5 million gallons)</p>";
     } else {
-        resultsHTML += "<p style='color: #6b4a3a;'>Q4: Incorrect. (Answer: Planned Obsolescence)</p>";
+        resultsHTML += "<p style='color: #6b4a3a;'>Q4: Incorrect. (Answer: 5 million gallons)</p>";
     }
 
     const q5 = document.querySelectorAll('input[name="q5"]:checked');
