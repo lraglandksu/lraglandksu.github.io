@@ -115,7 +115,7 @@ form section {
     margin-bottom: 25px;
     padding-bottom: 15px;
     border-bottom: 1px solid #cbbea5;
-{
+}
     input[type="text"] { /* QUIZ INPUT BOX sand background brown font color font family match */
     padding: 10px;
     border-radius: 4px;
