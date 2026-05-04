@@ -91,10 +91,11 @@ table { /* TABLE standard layout with light sand background */
     background-color: #cbbea5;
 }
 
-th, td { /* TABLE CELLS brown border */
+th, td { /* TABLE CELLS brown border with light sand background */
     border: 1px solid #4b3d2a;
     padding: 12px;
     text-align: left;
+    background-color: #cbbea5
 }
 
 th { /* TABLE HEADER dark green background with light green font */
