@@ -116,15 +116,19 @@ form section {
     padding-bottom: 15px;
     border-bottom: 1px solid #cbbea5;
 }
-    input[type="text"] { /* QUIZ INPUT BOX sand background brown font color font family match */
+input[type="text"] { /* QUIZ INPUT BOX sand background brown font color font family match */
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #4b3d2a;
-    background-color: #cbbea5;  /* sand */
-    color: #6b4a3a;             /* brown */
+    background-color: #cbbea5;
+    color: #6b4a3a;
     width: 100%;
     max-width: 400px;
     font-size: 1rem;
+    font-family: Georgia, serif;
+}
+input[type="text"]::placeholder {
+    color: #9a7b6a;
     font-family: Georgia, serif;
 }
 input[type="radio"],
