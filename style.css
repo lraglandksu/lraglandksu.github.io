@@ -115,15 +115,17 @@ form section {
     margin-bottom: 25px;
     padding-bottom: 15px;
     border-bottom: 1px solid #cbbea5;
-}
-input[type="text"] {
+{
+    input[type="text"] { /* QUIZ INPUT BOX sand background brown font color font family match */
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #4b3d2a;
-    background-color: #f5f2ed;
+    background-color: #cbbea5;  /* sand */
+    color: #6b4a3a;             /* brown */
     width: 100%;
     max-width: 400px;
     font-size: 1rem;
+    font-family: Georgia, serif;
 }
 input[type="radio"],
 input[type="checkbox"] {
