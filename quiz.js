@@ -28,7 +28,7 @@ function checkQuiz() {
     }
 
     const q4 = document.querySelector('input[name="q4"]:checked');
-    if (q4 && q4.value === "Gallons") {
+    if (q4 && q4.value === "5Gallons") {
         score++;
         resultsHTML += "<p style='color: #22372b;'>Q4: Correct! (Answer: 5 million gallons)</p>";
     } else {
